@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "WSPay"
-  s.version = "0.1.2"
+  s.version = "0.1.3"
   s.summary = "WSPay."
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.author  = { 'wesaiPublic' => 'app@wesai.com' }
