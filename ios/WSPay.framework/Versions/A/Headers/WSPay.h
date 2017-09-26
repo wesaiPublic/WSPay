@@ -99,14 +99,6 @@ typedef void(^WSPCommonBlock)(void); // 通用的回调SDK
 -(void)wsStartPayWithPaymentParameters:(NSDictionary *)parameters withController:(UIViewController *)controller completion:(PayResult) completion;
 
 /**
- 这个方法是获取App在苹果后台注册的IAP项目列表，也可以自行通过后端获取
-
- @param businessId 对应app的商户id
- @param completion 回调给app的IAP项目列表(存储的是字典,productId:项目id,itemName:项目名称,itemPrice:项目价格(分))
- */
--(void)getAppProductListByBusinessId:(NSString *)businessId productList:(ProductList)completion;
-
-/**
  这个是IAP恢复购买非消耗品的方法（暂时还未启用）
  */
 -(void)restoreTranscation;
