@@ -17,5 +17,6 @@ Pod::Spec.new do |s|
   s.dependency 'Masonry', '~> 0.6.1'
   
 #s.ios.resource=['ios/Resource/**/*.{xcassets,wav,mp3,xib,txt,cer}']
-s.resource=['ios/Resource/**/*.{png,wav,mp3,xib,txt,cer}']
+#pod上使用xcassets 这个图片打包会出问题
+s.resource=['ios/Resource/**/*.{xib,cer}']
 end
