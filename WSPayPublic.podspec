@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.author  = { 'wesaiPublic' => 'app@wesai.com' }
   s.homepage = "https://github.com/wesaiPublic/WSPay.git"
   s.description = "TODO: Add long description of the pod here."
-  s.frameworks = ["UIKit", "WebKit", "CoreTelephony", "SystemConfiguration", "CoreGraphics"]
+  s.frameworks = ["UIKit", "WebKit", "CoreTelephony", "SystemConfiguration", "CoreGraphics","StoreKit"]
   s.xcconfig = {"OTHER_LDFLAGS"=>"-lObjC"}
   s.source = { :path => '.' }
 
