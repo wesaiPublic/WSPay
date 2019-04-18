@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
   s.dependency 'Masonry', '~> 0.6.1'
   
 #s.ios.resource=['ios/Resource/**/*.{xcassets,wav,mp3,xib,txt,cer}']
-s.ios.resource=['ios/Resource/**/*.{xcassets,wav,mp3,xib,txt,cer}']
+s.resource=['ios/Resource/**/*.{xcassets,wav,mp3,xib,txt,cer}']
 end
